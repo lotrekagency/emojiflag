@@ -1,0 +1,2 @@
+def get(locale):
+    pass
