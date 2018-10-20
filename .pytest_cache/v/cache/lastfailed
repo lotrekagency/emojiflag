@@ -1,0 +1,8 @@
+{
+  "tests/test_emojiflag.py::TestEmojiFlag::()::test_ascii": true,
+  "tests/test_emojiflag.py::TestEmojiFlag::()::test_country_lower": true,
+  "tests/test_emojiflag.py::TestEmojiFlag::()::test_country_upper": true,
+  "tests/test_emojiflag.py::TestEmojiFlag::()::test_mixed": true,
+  "tests/test_emojiflag.py::TestEmojiFlag::test_ascii": true,
+  "tryme.py": true
+}
