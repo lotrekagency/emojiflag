@@ -1,1 +1,1 @@
-from .emojiflag import get
+from .emojiflag import get # NOQA
