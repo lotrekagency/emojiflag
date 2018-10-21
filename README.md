@@ -35,13 +35,6 @@ pytest -s --cov emojiflag
 ```
 
 
-### The idea
+### Credits
 
-```py
-OFFSET = ord('🇦') - ord('A')
-
-def flag(code):
-    return chr(ord(code[0]) + OFFSET) + chr(ord(code[1]) + OFFSET)
-```
-
-From https://schinckel.net/2015/10/29/unicode-flags-in-python/
+https://schinckel.net/2015/10/29/unicode-flags-in-python/
