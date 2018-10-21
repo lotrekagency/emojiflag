@@ -162,4 +162,4 @@ DEFAULTS = {
     "yo": 'NG',
     "zh": 'CN',
     "zu": 'ZA'
-  } 
+}
