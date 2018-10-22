@@ -24,7 +24,7 @@ Emojiflag 🏳️‍🌈 🇺🇸 🇪🇸 🇮🇹
 
 
 .. image:: https://img.shields.io/badge/License-MIT-blue.svg
-   :target: https://github.com/Owanesh/emojiflag/blob/master/LICENSE
+   :target: https://github.com/lotrekagency/emojiflag/blob/master/LICENSE
    :alt: License: MIT
 
 
