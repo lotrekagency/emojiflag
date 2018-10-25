@@ -5,6 +5,7 @@
 [![Build Status](https://travis-ci.org/lotrekagency/emojiflag.svg?branch=master)](https://travis-ci.org/lotrekagency/emojiflag)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/lotrekagency/emojiflag/blob/master/LICENSE)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/6febe99f004349029b9aaa285f9db555)](https://www.codacy.com/app/Owanesh/emojiflag?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=lotrekagency/emojiflag&amp;utm_campaign=Badge_Grade)
+[![PyPI version](https://badge.fury.io/py/emojiflag.svg)](https://badge.fury.io/py/emojiflag)
 
 * * *
 

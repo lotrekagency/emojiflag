@@ -33,6 +33,11 @@ Emojiflag 🏳️‍🌈 🇺🇸 🇪🇸 🇮🇹
    :alt: Codacy Badge
 
 
+.. image:: https://badge.fury.io/py/emojiflag.svg
+   :alt: PyPi version Badge
+   :target: https://badge.fury.io/py/emojiflag
+
+
 ----
 
 Install
