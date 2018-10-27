@@ -92,6 +92,7 @@ DEFAULTS = {
     'lt': 'LT',
     'lu': 'CD',
     'lv': 'LV',
+    'lat': 'LV',
     'luo': 'KE',
     'luy': 'KE',
     'mas': 'TZ',
