@@ -1,9 +1,18 @@
+"""This module actually contains the `get` function definition."""
 import re
 from .utils import (COUNTRY_CODE_RE, DEFAULTS,
                     EXTRA_FLAGS, OFFSET)
 
 
 def get(locale: str) -> str:
+    """Get emoji flag for given locale.
+
+    Args:
+        locale (str): Locale code.
+
+    Returns:
+        str: Emoji flag.
+    """
     locale = str(locale)
     if not locale or locale.isdigit() or len(locale) == 0:
         return ''
@@ -21,6 +30,14 @@ def get(locale: str) -> str:
 
 
 def code_for_locale(locale: str) -> str:
+    """Get country code for given locale.
+
+    Args:
+        locale (str): Locale code.
+
+    Returns:
+        str: Country code.
+    """
     locale = locale.upper()
     split = re.split('_|-', locale)
     lang = split[0]
