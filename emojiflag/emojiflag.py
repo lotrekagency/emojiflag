@@ -12,6 +12,16 @@ def get(locale: str) -> str:
 
     Returns:
         str: Emoji flag.
+
+    Examples:
+        >>> get(':nl:')  # Get by 2 letters.
+        '🇳🇱'
+        >>> get('ru-RU')  # Get by locale code.
+        '🇷🇺'
+        >>> get('racing')  # Get non-country flag.
+        '🏁'
+        >>> get(':qq_QQ:')  # Get nonexistent flag.
+        '🇶🇶'
     """
     locale = str(locale)
     if not locale or locale.isdigit() or len(locale) == 0:
