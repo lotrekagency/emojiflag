@@ -3,7 +3,7 @@ from .utils import (COUNTRY_CODE_RE, DEFAULTS,
                     EXTRA_FLAGS, OFFSET)
 
 
-def get(locale):
+def get(locale: str) -> str:
     locale = str(locale)
     if not locale or locale.isdigit() or len(locale) == 0:
         return ''
@@ -20,7 +20,7 @@ def get(locale):
         return code
 
 
-def code_for_locale(locale):
+def code_for_locale(locale: str) -> str:
     locale = locale.upper()
     split = re.split('_|-', locale)
     lang = split[0]
