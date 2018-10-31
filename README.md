@@ -7,7 +7,8 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/6febe99f004349029b9aaa285f9db555)](https://www.codacy.com/app/Owanesh/emojiflag?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=lotrekagency/emojiflag&amp;utm_campaign=Badge_Grade)
 
 * * *
-
+### Introduction
+Here is a program that helps you to find out the flags related to its country.
 ### Install
 
     pip install emojiflag
