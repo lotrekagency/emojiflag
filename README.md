@@ -34,7 +34,11 @@ pip install -r requirements-dev.txt
 
 pytest -s --cov emojiflag
 ```
-
+Be the change you want to see
+```sh
+cd tests
+python test_doc.py -v
+```
 
 ### Credits
 
