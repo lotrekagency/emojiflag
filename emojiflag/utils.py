@@ -1,6 +1,14 @@
+"""This module contains constants used in locale processing.
+
+Attributes:
+    COUNTRY_CODE_RE (str): Regular expression for country code matching.
+    DEFAULTS (dict): Country codes mapping.
+    EXTRA_FLAGS (dict): Non-country flags.
+    OFFSET (int): Distance from alpha letters to emoji letters.
+"""
 OFFSET = ord('🇦') - ord('A')
 
-COUNTRY_CODE_RE = '[A-Z]{2}'
+COUNTRY_CODE_RE = r'[A-Z]{2}'
 
 DEFAULTS = {
     'af': 'ZA',
